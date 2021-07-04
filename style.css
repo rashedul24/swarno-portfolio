@@ -5,13 +5,10 @@ body{
 h1{
   font-size: 40px;
 }
-h2{
-  font-size: 28px;
-} 
 .heading-name{
 color: coral;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 150px;
 }
@@ -55,4 +52,16 @@ section{
   background-image: url(images/mid-banner.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-item{
+box-shadow: 10px 10px 40px gray;
+width: 40%;
+margin: 0 3%;
+padding: 20px;
+border-radius: 10px;
+}
+.down-banner{
+  background-image: url(images/down-banner.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }

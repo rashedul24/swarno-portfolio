@@ -75,6 +75,9 @@ border-radius: 10px;
   border-image: linear-gradient(blue, cyan) ;
   border-image-slice: 1 ;
 }
+#ex{
+  padding-left: 40px;
+}
 footer p{
   text-align: center;
 }
